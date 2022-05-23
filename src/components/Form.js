@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './styles/Form.css';
 function Form({getData}) {
     const[weight, setWeight] = useState('');
     const[height, setHeight] = useState('');
@@ -17,8 +16,8 @@ function Form({getData}) {
     }
     return (
         <>
-            <form className='form' onSubmit={onSubmit}>
-            <h1 className='title text-center px-5 mt-2 text-secondary mx-5'>BMI Calculator</h1>
+            <form className='form mb-5' onSubmit={onSubmit} style={{ boxShadow: '0px 0px 10px black'}}>
+            <h1 className='title text-center px-5 mt-2 text-secondary mx-1'>BMI Calculator</h1>
                    <center>
                        
                         <label  className="form-label mt-3">Height(M):</label>
@@ -27,10 +26,11 @@ function Form({getData}) {
                     <input type="text" value={weight} onChange={(e)=>{setWeight(e.target.value)}} className="form-control h-25 w-25 mb-3 border border-dark" placeholder='eg:40' required/>
                    
                 <div className='submit'>
-                    <button type="submit" className="btn btn-primary mb-2">GET BMI</button>
+                    <button type="submit" style={{ marginBottom: '10px'}} className="btn btn-primary mb-2">GET BMI</button>
                 </div>
-                {alert && <div className="alert alert-danger" role="alert">Invalid Input</div>}
+                {alert && <div className="alert alert-danger mb-1" role="alert">Invalid Input</div>}
 </center>
+
             </form>
         </>
     )
