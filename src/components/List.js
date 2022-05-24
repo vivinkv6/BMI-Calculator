@@ -20,10 +20,10 @@ syntax
 condition ? true case : false case
 
 */}
-   {bmi<=18.15 ?
+   {bmi<18.15 ?
    <tr style={{border:'3px solid red'}}>
       <th >UnderWeight</th>
-      <td>&lt; 18.14</td>
+      <td>&lt; 18.15</td>
       <td>{range.UnderWeight.low}</td>
     </tr>
       :
@@ -34,7 +34,7 @@ condition ? true case : false case
     </tr>
 
    }
- {bmi>18.15 && bmi <= 24.9?
+ {bmi>=18.15 && bmi <= 24.9?
 <tr style={{border:'3px solid red'}}>
       <th>Normal</th>
       <td>18.15-24.9</td>
@@ -48,7 +48,7 @@ condition ? true case : false case
   </tr>
   
 }
-{ bmi>24.9 && bmi <= 29.9 ?
+{ bmi > 24.9 && bmi <= 29.9 ?
     <tr style={{border:'3px solid red'}}>
       <th>OverWeight</th>
       <td>25-29.9</td>

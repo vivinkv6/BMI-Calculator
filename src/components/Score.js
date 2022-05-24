@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Score({ bmi, bmiType }) {
+function Score({ bmi, bmiType,weightMeasure }) {
+ 
   return (
 
 
@@ -12,9 +13,13 @@ function Score({ bmi, bmiType }) {
         </div>
         <h3 className='text-center text-primary mt-2 ' style={{ fontWeight: 'bold', fontSize: '35px' }}>{bmiType}</h3>
       </div>
-
+   {bmiType === 'UnderWeight' &&<h5 align="center">You Need Gain {(weightMeasure.Range.Normal.low-weightMeasure.weight).toFixed(2)}Kg</h5>}
+   {bmiType === 'Normal' &&<h5 align="center">Your Weight is Normal,Good For You</h5>}
+   {bmiType === 'OverWeight' &&<h5 align="center">You Need  Lose {(weightMeasure.weight-weightMeasure.Range.Normal.high).toFixed(2)}Kg</h5>}
+   {bmiType === 'Obesity Class I' &&<h5 align="center">You Need  Lose {(weightMeasure.weight-weightMeasure.Range.Normal.high).toFixed(2)}Kg</h5>}
+   {bmiType === 'Obesity Class II' &&<h5 align="center">You Need  Lose {(weightMeasure.weight-weightMeasure.Range.Normal.high).toFixed(2)}Kg</h5>}
+   {bmiType === 'Obesity Class III' &&<h5 align="center">You Need  Lose {(weightMeasure.weight-weightMeasure.Range.Normal.high).toFixed(2)}Kg</h5>} 
     </div>
-
   )
 }
 

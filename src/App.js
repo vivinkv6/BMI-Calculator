@@ -6,6 +6,7 @@ import Score from './components/Score';
 function App() {
 
   const[bmi,setBmi]=useState('00');
+  const[weightMeasure,setWeightMeasure]=useState({});
   const[bmiType,setBmiType]=useState('Not Calculated');
   const[visible,setVisible]=useState(false);
   const[weightRange,setWeightRange]=useState({
@@ -60,6 +61,8 @@ const Range={
 }
 setWeightRange(Range);
 
+  setWeightMeasure({weight,Range});
+
    
   }
   //bmi calculation 
@@ -104,7 +107,7 @@ return (b*h*h).toFixed(2);
    
      <div className='col-sm-6 col-xl-6 justify-content-center mb-5'>
       
-    {visible && <Score bmi={bmi} bmiType={bmiType}/>}
+    {visible && <Score bmi={bmi} bmiType={bmiType} weightMeasure={weightMeasure}/>}
      </div>
      <div className='col-sm-6  col-xl-6 justify-content-center mb-5'>
      {visible && <List range={weightRange} bmi={bmi}/>} 
