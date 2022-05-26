@@ -3,9 +3,9 @@ import React from 'react'
 function List({range,bmi}) {
   console.log({range});
   return (
-    <table className="table border border-3 border-dark mt-3 text-center">
+    <table className="table border border-3 border-dark mt-4 text-center">
   <thead className='border border-2 border-dark'>
-    <tr >
+    <tr>
       <th scope="col">TYPE</th>
       <th scope="col">BMI</th>
       <th scope="col">WEIGHT(Kg):</th>

@@ -18,11 +18,11 @@ function Form({ getData}) {
     }
     return (
         <>
-            <form className='form mb-5 justify-content-center' onSubmit={onSubmit} style={{ boxShadow: '0px 0px 10px black',display:'inline-block',border:'2px solid black'}}>
+            <form className='form mb-5 px-3 py-3' onSubmit={onSubmit} style={{ boxShadow: '0px 0px 15px black'}}>
 
                 <h1 className='title text-center px-5 mt-3 text-secondary'>BMI Calculator</h1>
                 <center>
-                  
+                
                         <label className="form-label mt-2">Height(M):</label>
                         <input type="text" value={height} onChange={(e) => { setHeight(e.target.value)}} className="form-control h-25 w-25 mb-3 border border-dark" placeholder='eg:5.6' required />
                   

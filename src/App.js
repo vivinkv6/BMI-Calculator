@@ -100,11 +100,11 @@ return (b*h*h).toFixed(2);
   }
 
   return (
-      <div className="container justify-content-center" style={{display:'flex'}} >
-        <div className='row mt-4 mx-5'>
-      
+      <div className="container justify-content-center" >
+        <div className='row mt-4 mx-2'>
+      <div style={{display:'flex',justifyContent:'center'}}>
      <Form getData={getData}/>
-   
+     </div>
      <div className='col-sm-6 col-xl-6 justify-content-center mb-5'>
       
     {visible && <Score bmi={bmi} bmiType={bmiType} weightMeasure={weightMeasure}/>}
