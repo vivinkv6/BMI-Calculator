@@ -1,10 +1,40 @@
-# Getting Started with Create React App
+# BMI Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Body Mass Index (BMI) is a person’s weight in kilograms  divided by the square of height in meters. A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Working
+
+*Enter your weight (kilograms).<br>
+*Enter your height (metres).<br>
+*Press Submit button to show the BMI value,BMI category and BMI table.
+
+# How BMI calculated?
+
+BMI is calculated by dividing a person's weight in kilograms by the square of his/her height in meters. <br>
+
+eg: weight=50(kg), height=2.0(m)<br>
+Equation = weight / height * height
+
+
+## Technology and Libaries used
+
+React js - ^18.1.0<br>
+react-router-dom - ^6.3.0
+
+# How to use
+
+## step1 Fork<br>
+
+Click fork icon to display the same project in your repo
+
+## step2 Clone
+
+Paste the below command in your project folder<br><br>
+`git clone https://www.github.com/vivinkv6/Bmi-calculator`<br><br>
+After paste the command you can see the bmi-calculator project is available locally in your desktop
+
+## In the project directory, you can run:
 
 ### `npm start`
 
@@ -39,32 +69,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Resources
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## You can Can modify this project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1)modify style<br>
+2)Fix bug if any<br>
+3)Add new Features
 
-### Analyzing the Bundle Size
+## To know more about me
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.github.com/vivinkv6
