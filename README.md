@@ -31,7 +31,7 @@ Click fork icon to display the same project in your repo
 ## step2 Clone
 
 Paste the below command in your project folder<br><br>
-`git clone https://www.github.com/vivinkv6/Bmi-calculator`<br><br>
+`git clone https://github.com/vivinkv6/BMI-Calculator.git`<br><br>
 After paste the command you can see the bmi-calculator project is available locally in your desktop
 
 ## In the project directory, you can run:
