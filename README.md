@@ -1,4 +1,7 @@
+
 # BMI Calculator
+
+![Screenshot (204)](https://user-images.githubusercontent.com/102971812/173192422-ce178c36-3ce5-46a3-a7cf-e2267e9517c0.png)
 
 Body Mass Index (BMI) is a person’s weight in kilograms  divided by the square of height in meters. A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.
 
