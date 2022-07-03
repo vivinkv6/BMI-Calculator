@@ -25,6 +25,10 @@ Equation = weight / height * height
 React js - ^18.1.0<br>
 react-router-dom - ^6.3.0
 
+## Website Link
+
+https://bmi-calculator-liart.vercel.app/
+
 # How to use
 
 ## step1 Fork<br>
@@ -38,11 +42,6 @@ Paste the below command in your project folder<br><br>
 After paste the command you can see the bmi-calculator project is available locally in your desktop
 
 ## In the project directory, you can run:
-
-## Website Link
-
-https://bmi-calculator-liart.vercel.app/
-
 
 ### `npm start`
 
